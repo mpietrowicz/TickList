@@ -1,0 +1,10 @@
+
+<ng-container>
+
+</ng-container>
+<ul class="list-group">
+  <li *ngFor="let a of ticks_list" class="list-group-item">
+    <h5 class="mb-1"><fa-icon [icon]="faCheck" style="color: gray"></fa-icon>{{a.name}}</h5>
+    <small>{{a.description}}</small>
+  </li>
+</ul>
